@@ -34,7 +34,7 @@ function CreatePostPage() {
         }
     } catch (error) {
         console.error(error);
-        
+        setError(error.message);
     }
 };
 
